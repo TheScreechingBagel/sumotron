@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Control!</title>
+
+    <link href="css/entireframework.min.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="mode-switcher">
+        <button id="btn-classic" class="mode-btn">Classic</button>
+        <button id="btn-sumo" class="mode-btn active">Sumo</button>
+    </div>
+
+    <div id="mode-classic" class="mode-content">
+        <!-- Classic mode content removed as requested -->
+        <div style="text-align: center; padding: 20px; color: #666;">
+            Classic Mode Disabled
+        </div>
+    </div>
+
+    <div id="mode-sumo" class="mode-content active">
+        <div class="sumo-container">
+            <div class="slider-wrapper left-slider">
+                <div class="slider-track">
+                    <div class="notches"></div>
+                    <input type="range" min="-255" max="255" value="0" class="vertical-slider" id="slider-left">
+                </div>
+            </div>
+            <div class="slider-wrapper right-slider">
+                <div class="slider-track">
+                    <div class="notches"></div>
+                    <input type="range" min="-255" max="255" value="0" class="vertical-slider" id="slider-right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/custom.js"></script>
+    </div>
+    </div>
+</body>
+
+</html>
