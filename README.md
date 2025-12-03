@@ -1,7 +1,7 @@
 # Mechatron Sumo Robot
 
-1. Install [PlatformIO](https://platformio.org/)
-    i'm just using the cli [PlatformIO Core](https://platformio.org/install/cli), u don't need the ide
+1. Install [PlatformIO](https://platformio.org/)  
+    - i'm just using the cli [PlatformIO Core](https://platformio.org/install/cli), u don't need the ide
 
 2. connect the ESP.
 
