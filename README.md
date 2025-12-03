@@ -5,18 +5,6 @@
 
 2. connect the ESP.
 
-use `bun` (or other minifier) to scrunchify:
-
-```sh
-bun build web_src/index.html --outdir data --target browser --minify
-```
-
-or just copy:
-
-```sh
-cp -r web_src/* data/
-```
-
 ## runneing
 
 ```sh

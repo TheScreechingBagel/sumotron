@@ -7,11 +7,11 @@
 // Motor control pins
 #define AIN1 27
 #define AIN2 14
-#define BIN1 33
-#define BIN2 25
+#define BIN1 25 // TODO: change pin to 25 for the straight wiring
+#define BIN2 33 // TODO: change pin to 33 for the straight wiring
 #define PWMA 12
 #define PWMB 32
-#define STBY 13
+#define STBY 26 // TODO: change to pin 26 for the straight wiring
 
 /*
   The resolution of the PWM is 8 bit so the value is between 0-255
@@ -252,6 +252,7 @@ void setup() {
   if (apStarted) {
     Serial.println("Hotspot up!");
     Serial.print("IP Address: ");
+    Serial.print("WOKE");
     Serial.println(WiFi.softAPIP().toString());
   } else {
     Serial.println("Failed to create hotspot.");
